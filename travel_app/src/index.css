@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', Verdana;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

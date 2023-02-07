@@ -1,0 +1,55 @@
+.card {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 18px;
+}
+
+.card--image {
+    max-height: 15rem;
+    aspect-ratio: 5 / 4;
+    margin: 0 24px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card--info {
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.card--location img {
+    width: 16px;
+}
+
+.card--location span {
+    letter-spacing: 2px;
+    margin-right: 8px;
+}
+
+.card--location a {
+    color: #918E9B;
+}
+
+.card--title {
+    margin: 8px 0px;
+}
+
+.card--date {
+    margin: 12px 0 4px;
+    font-size: 15px;
+}
+
+.card--desc {
+    margin: 0;
+    font-size: 14px;
+}

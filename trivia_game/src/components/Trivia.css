@@ -1,0 +1,84 @@
+.trivia-container {
+    width: 60vw;
+    padding: 5vh 20vw 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow-x: hidden;
+}
+
+.q-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+
+    border-bottom: 1px solid #DBDEF0;
+}
+
+.q-container h3 {
+    font-size: 22px;
+}
+
+.q-options {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.q-button {
+    padding: 0.5rem 2rem;
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #293264;
+    background-color: #F5F7FB;
+    border: 0.8px solid #4D5B9E;
+    border-radius: 0.75rem;
+}
+
+.selected {
+    border: none;
+    background-color: #D6DBF5;
+}
+
+.send-button {
+    width: fit-content;
+    align-self: center;
+    padding: 1.5rem 5rem;
+    font-size: 20px;
+  
+    background-color: #4D5B9E;
+    border-radius: 1.25rem;
+    color: white;
+}
+
+.send-button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.win-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.win-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.correct {
+    border: none;
+    background-color: #94D7A2;
+}
+
+.incorrect {
+    border: none;
+    background-color: #F8BCBC;
+}
+
+.not-check {
+    opacity: 0.75;
+}

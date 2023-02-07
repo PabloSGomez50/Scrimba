@@ -1,0 +1,48 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F7FB;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.start-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.start-title {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.start-desc {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.start-button {
+  margin-top: 2rem;
+  padding: 2rem 6rem;
+  font-size: 24px;
+
+  background-color: #4D5B9E;
+  border-radius: 1.25rem;
+  color: white;
+}
